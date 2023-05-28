@@ -1,0 +1,10 @@
+.itemCount{
+    width: 150px;
+}
+.botonCount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: salmon;
+    border-radius: 50px;
+}
