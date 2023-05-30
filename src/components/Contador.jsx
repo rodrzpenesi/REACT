@@ -14,10 +14,10 @@ function Contador() {
     
   return (
     <div className='itemCount'>
-      <div className='botonCount btn btn-secondary'>
-        <button onClick={restar} className='rest btn btn-info'>-</button>
+      <div className='botonCount'>
+        <button onClick={restar} className='rest'>-</button>
         <p className='count'>{count}</p>
-        <button onClick={sumar} className='agreg btn btn-info'>+</button>
+        <button onClick={sumar} className='agreg'>+</button>
       </div>
     </div>
   )

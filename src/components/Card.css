@@ -1,0 +1,9 @@
+.ItemsCards{
+    flex-direction: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 18rem;
+}

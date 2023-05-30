@@ -1,17 +1,16 @@
 import './App.css'
-import Contador from './components/Contador';
 import NavBar from './components/NavBar';
-import Saludar from './components/main';
+import Saludar from './components/Main';
+import Card from './components/Card';
 
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <div className='Saludo'>
-        <Saludar/>
-        <Contador/>
-      </div>   
+      <div className='ItemsCards'>
+        <Card/>
+      </div>  
     </div>
   )
 }
