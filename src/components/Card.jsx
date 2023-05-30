@@ -1,14 +1,14 @@
 import './Card.css'
-import Rapiditas from '../assets/rapiditas.png';
 import Contador from '../components/Contador';
 
-function Card() {
+function Card({imagen, nombre, precio,id,categoria}) {
     return (
     <>
         <div className="card">
-            <img src={Rapiditas} alt="Rapiditas" className="card-img-top"/>
+            <img src={imagen} alt="Rapiditas" className="card-img-top"/>
         <div className="card-body">
-            <h5 className="card-title">Rapiditas Clasicas</h5>
+            <h5 className="card-title">{nombre}</h5>
+            <h4 className="card-title">${precio}</h4>
             <div>
             <Contador/>
             </div>

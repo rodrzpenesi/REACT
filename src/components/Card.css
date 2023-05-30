@@ -1,9 +1,16 @@
 .ItemsCards{
-    flex-direction: flex;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
 }
 .card{
     width: 18rem;
+}
+.cardFlex{
+    display: flex;
+    gap: 1rem;
 }
