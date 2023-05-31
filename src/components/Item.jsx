@@ -1,5 +1,5 @@
-import './Card.css'
-import Contador from '../components/Contador';
+import './Item.css'
+import Contador from './Contador';
 
 function Card({imagen, nombre, precio,id,categoria}) {
     return (
