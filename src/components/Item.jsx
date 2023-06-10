@@ -13,7 +13,10 @@ function Card({imagen, nombre, precio,id,categoria}) {
             <Contador/>
             </div>
             <a href="#" className="btn btn-primary">Comprar</a>
-        </div>
+            </div>
+            <div>
+            <button className='btn btn-primary btn-sm'>Ver Detalles</button>
+            </div>
         </div>
     </>
     )
